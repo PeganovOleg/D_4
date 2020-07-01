@@ -1,9 +1,14 @@
 language: python
 python:
-  - "2.7"
+  - "3.8.1"
 before-install: 
 - "export PYTHONPATH=$PYTHONPATH:$(pwd)"
 install:
 - pip install -r requirements.txt
 script:
 - pytest
+[![Travis][build-badge]][build]
+
+[build-badge]: https://img.shields.io/travis/PeganovOleg/D_4/master.png?style=flat-square
+
+[build]: https://travis-ci.org/PeganovOleg/D_4
